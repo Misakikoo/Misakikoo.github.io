@@ -1858,7 +1858,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fcbda2;
+  background: #3eff3d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2594,7 +2594,7 @@ ul.breadcrumb li+li:last-child {
   float: right;
   box-sizing: border-box;
   padding: 40px;
-  width: calc(100% - 252px);
+  width: calc(100% - 292px);
   background: #fff;
   min-height: 700px;
   box-shadow: initial;
@@ -2827,7 +2827,7 @@ ul.breadcrumb li+li:last-child {
 }
 .sidebar-inner.affix {
   position: fixed;
-  top: 12px;
+  top: 52px;
 }
 .sidebar-inner.affix-bottom {
   position: absolute;
