@@ -519,7 +519,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div id="timeDate">载入天数...</span><span id="times">载入时分秒...</div>
+        <div id="timeDate">确认存活中...</div>
 <script>
     var now = new Date();
     function createtime() {
@@ -531,8 +531,7 @@
         mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
         seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
         snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-        document.getElementById("timeDate").innerHTML = "Misaki在世界线上存活了"+dnum+"天";
-        document.getElementById("times").innerHTML = hnum + "时" + mnum + "分" + snum + "秒";
+        document.getElementById("timeDate").innerHTML = "Misaki在世界线上存活了"+dnum+"天"+hnum + "时" + mnum + "分" + snum + "秒";
     }
 setInterval("createtime()",250);
 </script>
