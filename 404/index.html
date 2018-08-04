@@ -523,22 +523,6 @@
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
-  <script>
-  var seconds = 1000;
-  var minutes = seconds * 60;
-  var hours = minutes * 60;
-  var days = hours * 24;
-  var birthDay = Date.UTC(2018,00,30,23,00,00,00);
-  setInterval(function() {
-    var today = new Date().getTime();
-    var diff = today - birthDay;
-    var diffDays = Math.floor(diff/days);
-    var diffHours = Math.floor((diff-(diffDays)*days)/hours);
-    var diffMinutes = Math.floor((diff-(diffDays)*days-diffHours*hours)/minutes);
-    var diffSeconds = Math.floor((diff-(diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
-    document.getElementById('showDays').innerHTML="网站在此世界线运行了 "+diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒";
-  }, 1000);
-</script>
   <span class="author" itemprop="copyrightHolder">Misakikoo</span>
 
   
