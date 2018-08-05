@@ -1868,7 +1868,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #37ffff;
+  background: #e7cb00;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2985,14 +2985,4 @@ ul.breadcrumb li+li:last-child {
   .content-wrap {
     width: 900px;
   }
-}
-.footer-image {
-  background: url("../images/footer.png");
-  no-repeat: 50%;
-  height: 368px;
-  z-index: 1;
-  position: absolute;
-  bottom: 48px;
-  width: 100%;
-  pointer-events: none;
 }
