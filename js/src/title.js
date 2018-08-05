@@ -12,3 +12,4 @@ document.addEventListener('visibilitychange', function() {
         }, 2000);
     }
 });
+setInterval("createtime()",250);
