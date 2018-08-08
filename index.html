@@ -128,20 +128,19 @@
 
 
   <meta property="og:type" content="website">
-<meta property="og:title" content="Tags">
-<meta property="og:url" content="http://misakikoo.github.io/blog/tags/index.html">
+<meta property="og:title" content="Misaki blog">
+<meta property="og:url" content="http://misakikoo.github.io/blog/index.html">
 <meta property="og:site_name" content="Misaki blog">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-07-02T16:50:30.078Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Tags">
+<meta name="twitter:title" content="Misaki blog">
 
 
 
 
 
 
-  <link rel="canonical" href="http://misakikoo.github.io/blog/tags/"/>
+  <link rel="canonical" href="http://misakikoo.github.io/blog/"/>
 
 
 
@@ -151,7 +150,7 @@
   };
 </script>
 
-  <title>Tags | Misaki blog</title>
+  <title>Misaki blog</title>
   
 
 
@@ -207,7 +206,8 @@
     
   
 
-  <div class="container sidebar-position-right page-post-detail">
+  <div class="container sidebar-position-right 
+  page-home">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -244,7 +244,7 @@
         
         
           
-          <li class="menu-item menu-item-主页">
+          <li class="menu-item menu-item-主页 menu-item-active">
     <a href="/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-home"></i> <br />主页</a>
   </li>
@@ -252,7 +252,7 @@
         
         
           
-          <li class="menu-item menu-item-标签 menu-item-active">
+          <li class="menu-item menu-item-标签">
     <a href="/tags/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
   </li>
@@ -309,80 +309,178 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
+  <section id="posts" class="posts-expand">
+    
+      
 
-  <div id="posts" class="posts-expand">
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://misakikoo.github.io/blog/2018/08/03/用函数实现数学运算/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Misakikoo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Misaki blog">
+    </span>
+
     
-    
-    
-    <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">Tags</h1>
-
-<div class="post-meta">
-  
-  
-
-
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/03/用函数实现数学运算/" itemprop="url">
+                  用函数实现数学运算
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-08-03 22:47:40" itemprop="dateCreated datePublished" datetime="2018-08-03T22:47:40+08:00">2018-08-03</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-08-08 14:17:46" itemprop="dateModified" datetime="2018-08-08T14:17:46+08:00">2018-08-08</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           
+            <p>一位叫阿隆佐·邱奇的数学家（这个牛逼的大哥是阿兰·图灵的老师），发现只需要用函数，就可以让计算机实现运算，而不需要<code>0</code>、<code>1</code>、<code>2</code>、<code>3</code>这些数字和<code>+</code>、<code>-</code>、<code>*</code>、<code>/</code>这些符号。</p>
+<p>可以用JavaScript用函数来写这些计算试试：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">'use strict'</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 定义数字0</span></span><br><span class="line"><span class="keyword">var</span> zero = <span class="function"><span class="keyword">function</span> (<span class="params">f</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params">x</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> x;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 定义数字1</span></span><br><span class="line"><span class="keyword">var</span> one = <span class="function"><span class="keyword">function</span> (<span class="params">f</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params">x</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> f(x);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 定义加法:</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">add</span>(<span class="params">n, m</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params">f</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params">x</span>) </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> m(f)(n(f)(x));</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 计算数字 2 = 1 + 1:</span></span><br><span class="line"><span class="keyword">var</span> two = add(one, one);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 计算数字 3 = 1 + 2:</span></span><br><span class="line"><span class="keyword">var</span> three = add(one, two);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 计算数字 5 = 2 + 3:</span></span><br><span class="line"><span class="keyword">var</span> five = add(two, three);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 给3传一个函数,会打印3次:</span></span><br><span class="line">(three(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'print 3 times'</span>);</span><br><span class="line">&#125;))();</span><br><span class="line"></span><br><span class="line"><span class="comment">// 给5传一个函数,会打印5次:</span></span><br><span class="line">(five(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'print 5 times'</span>);</span><br><span class="line">&#125;))();</span><br></pre></td></tr></table></figure>
+<p>输出：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">print <span class="number">3</span> times</span><br><span class="line">print <span class="number">3</span> times</span><br><span class="line">print <span class="number">3</span> times</span><br><span class="line">print <span class="number">5</span> times</span><br><span class="line">print <span class="number">5</span> times</span><br><span class="line">print <span class="number">5</span> times</span><br><span class="line">print <span class="number">5</span> times</span><br><span class="line">print <span class="number">5</span> times</span><br></pre></td></tr></table></figure>
+<p>反正我是看了很久才明白了它的逻辑(￣▽￣)”</p>
+<p>不亏是研究数理逻辑和函数的老哥</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Alonzo_Church.jpg/220px-Alonzo_Church.jpg" alt="Alonzo Church.jpg"></p>
+
+          
         
-      </div>
-      
-      
       
     </div>
-    
-
-
 
     
+
     
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
 
 
           </div>
           
-
-  
-
-
 
         </div>
         
@@ -635,10 +733,6 @@
 
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
-
-
 
   
 
