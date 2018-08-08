@@ -1099,7 +1099,7 @@ pre .javascript .function {
   bottom: 30px;
 }
 .header {
-  background: url("../image/header.png");
+  background: url("/image/header.png");
 }
 .header-inner {
   position: relative;
@@ -1868,7 +1868,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e53300;
+  background: #795dff;
 }
 .links-of-blogroll {
   font-size: 13px;
