@@ -1868,7 +1868,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c9ff1a;
+  background: #b849ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2605,7 +2605,7 @@ ul.breadcrumb li+li:last-child {
   box-sizing: border-box;
   padding: 40px;
   width: calc(100% - 292px);
-  background: #fff;
+  background: rgba(255,255,255,0.7);
   min-height: 700px;
   box-shadow: initial;
   border-radius: initial;
@@ -4403,7 +4403,7 @@ ul.breadcrumb li+li:last-child {
   }
 }
 .post {
-  background: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0);
 }
 * {
   cursor: url("/images/cursor.ico"), auto !important;
