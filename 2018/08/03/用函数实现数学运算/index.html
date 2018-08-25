@@ -127,19 +127,19 @@
 
 
 
-  <meta name="description" content="一位叫阿隆佐·邱奇的数学家（这个牛逼的大哥是阿兰·图灵的老师），发现只需要用函数，就可以让计算机实现运算，而不需要0、1、2、3这些数字和+、-、*、/这些符号。 可以用JavaScript用函数来写这些计算试试： 123456789101112131415161718192021222324&apos;use strict&apos;;// 定义数字0var zero = function (f) &amp;#123;">
+  <meta name="description" content="一位叫阿隆佐·邱奇的数学家（这个牛逼的大哥是阿兰·图灵的老师），发现只需要用函数，就可以让计算机实现运算，而不需要0、1、2、3这些数字和+、-、*、/这些符号。">
 <meta name="keywords" content="JavaScript,脑洞大开">
 <meta property="og:type" content="article">
 <meta property="og:title" content="用函数实现数学运算">
 <meta property="og:url" content="http://misakikoo.github.io/blog/2018/08/03/用函数实现数学运算/index.html">
 <meta property="og:site_name" content="Misaki blog">
-<meta property="og:description" content="一位叫阿隆佐·邱奇的数学家（这个牛逼的大哥是阿兰·图灵的老师），发现只需要用函数，就可以让计算机实现运算，而不需要0、1、2、3这些数字和+、-、*、/这些符号。 可以用JavaScript用函数来写这些计算试试： 123456789101112131415161718192021222324&apos;use strict&apos;;// 定义数字0var zero = function (f) &amp;#123;">
+<meta property="og:description" content="一位叫阿隆佐·邱奇的数学家（这个牛逼的大哥是阿兰·图灵的老师），发现只需要用函数，就可以让计算机实现运算，而不需要0、1、2、3这些数字和+、-、*、/这些符号。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Alonzo_Church.jpg/220px-Alonzo_Church.jpg">
-<meta property="og:updated_time" content="2018-08-08T06:24:05.919Z">
+<meta property="og:updated_time" content="2018-08-25T14:47:59.430Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="用函数实现数学运算">
-<meta name="twitter:description" content="一位叫阿隆佐·邱奇的数学家（这个牛逼的大哥是阿兰·图灵的老师），发现只需要用函数，就可以让计算机实现运算，而不需要0、1、2、3这些数字和+、-、*、/这些符号。 可以用JavaScript用函数来写这些计算试试： 123456789101112131415161718192021222324&apos;use strict&apos;;// 定义数字0var zero = function (f) &amp;#123;">
+<meta name="twitter:description" content="一位叫阿隆佐·邱奇的数学家（这个牛逼的大哥是阿兰·图灵的老师），发现只需要用函数，就可以让计算机实现运算，而不需要0、1、2、3这些数字和+、-、*、/这些符号。">
 <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Alonzo_Church.jpg/220px-Alonzo_Church.jpg">
 
 
@@ -396,7 +396,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-08-08 14:24:05" itemprop="dateModified" datetime="2018-08-08T14:24:05+08:00">2018-08-08</time>
+                <time title="修改时间：2018-08-25 22:47:59" itemprop="dateModified" datetime="2018-08-25T22:47:59+08:00">2018-08-25</time>
               
             
           </span>
@@ -413,7 +413,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/创作/" itemprop="url" rel="index"><span itemprop="name">创作</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/分享/" itemprop="url" rel="index"><span itemprop="name">分享</span></a></span>
 
                 
                 
@@ -448,6 +448,7 @@
 
       
         <p>一位叫阿隆佐·邱奇的数学家（这个牛逼的大哥是阿兰·图灵的老师），发现只需要用函数，就可以让计算机实现运算，而不需要<code>0</code>、<code>1</code>、<code>2</code>、<code>3</code>这些数字和<code>+</code>、<code>-</code>、<code>*</code>、<code>/</code>这些符号。</p>
+<a id="more"></a>
 <p>可以用JavaScript用函数来写这些计算试试：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">'use strict'</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 定义数字0</span></span><br><span class="line"><span class="keyword">var</span> zero = <span class="function"><span class="keyword">function</span> (<span class="params">f</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params">x</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> x;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 定义数字1</span></span><br><span class="line"><span class="keyword">var</span> one = <span class="function"><span class="keyword">function</span> (<span class="params">f</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params">x</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> f(x);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 定义加法:</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">add</span>(<span class="params">n, m</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params">f</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params">x</span>) </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> m(f)(n(f)(x));</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 计算数字 2 = 1 + 1:</span></span><br><span class="line"><span class="keyword">var</span> two = add(one, one);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 计算数字 3 = 1 + 2:</span></span><br><span class="line"><span class="keyword">var</span> three = add(one, two);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 计算数字 5 = 2 + 3:</span></span><br><span class="line"><span class="keyword">var</span> five = add(two, three);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 给3传一个函数,会打印3次:</span></span><br><span class="line">(three(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'print 3 times'</span>);</span><br><span class="line">&#125;))();</span><br><span class="line"></span><br><span class="line"><span class="comment">// 给5传一个函数,会打印5次:</span></span><br><span class="line">(five(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'print 5 times'</span>);</span><br><span class="line">&#125;))();</span><br></pre></td></tr></table></figure>
@@ -585,7 +586,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
